@@ -1,0 +1,92 @@
+#logo{
+    margin: 1%;
+    /* border: solid red 1px; */
+}
+textarea{
+    resize: none;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+#caixa{
+    position: relative;
+    width: 96%;
+    margin: 0 2%;
+    /* border: solid red 1px; */
+    box-sizing: border-box;
+}
+
+/* div */
+#texto{
+    margin: 1%;
+    
+}
+
+/* textarea */
+#msg{
+    background-color: transparent;
+    border: none;
+    width: 1000px;
+    height: 600px;
+    font-size: 36px;
+    margin-left: 15%;
+    
+}
+
+
+/* textarea */
+#res{
+    width: 300px;
+    height: 700px;
+    font-size: 36px;
+    margin: 5% 5% 5% 5%; 
+    background-color: transparent;
+    border: none;
+    
+}
+
+/* div */
+#resposta{
+    width: 344px;
+    height: 820px;
+    border-radius: 32px;
+    background-color: white;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+
+}
+
+#botao{
+    margin: 0 20%;
+}
+
+button{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+}
+
+#codificar{
+    margin: 0 5%;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    font-size: 16px;
+}
+
+#decodificar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    border: solid #0A3871 1px;
+}
+
+#copiar{
+    background-color: #fff;
+    border: solid #0A3871 1px;
+    margin: 0 3%;
+    font-size: 16px;
+    color: #0A3871;
+}
