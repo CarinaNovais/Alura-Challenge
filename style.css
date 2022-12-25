@@ -3,8 +3,8 @@
     /* border: solid red 1px; */
 }
 textarea{
-    resize: none;
-    border: solid pink 1px;
+    /* resize: none;
+    border: solid pink 1px; */
 }
 
 /* textarea:focus, input:focus {
@@ -55,7 +55,7 @@ body{
     font-size: 36px;
     margin: 5% 5% 5% 5%; 
     background-color: transparent;
-    border: none;
+    /* border: none; */
     
 }
 
@@ -81,6 +81,7 @@ button{
     width: 328px;
     height: 67px;
     border-radius: 24px;
+    border: solid #0A3871 1px;
 }
 
 #codificar{
@@ -147,6 +148,7 @@ button{
     button{
         width: 150px;
         height: 67px;
+        border: solid #0A3871 1px;
     }
 
     #copiar{
@@ -164,6 +166,12 @@ button{
         right: 5.5%;
         top:30%;
     }
+
+    #res{
+        width: 300px;
+        height: 600px;
+    }
+
     #resposta{
         width: 344px;
         height: 730px;
@@ -189,6 +197,11 @@ button{
         top:75%;
         left: 70%;
     }
+    #res{
+        width: 400px;
+        height: 240px;
+    }
+
     #imgRes{
         width: 150px;
     }
@@ -211,5 +224,80 @@ button{
 }
 
 @media (max-width:900px){
+    #msg{
+        margin: 0 15%;
+        width: 500px;
+        height: 600px;
+    }
 
+    #conteudoAnterior{
+        top:75%;
+        left: 10%;
+    }
+
+    #codificar{
+       position: absolute;
+       left: 25%;
+       top: 55%;
+    }
+    
+    #decodificar{
+        position: absolute;
+        top: 62%;
+    }
+
+    button{
+        width: 235px;
+        border: solid #0A3871 1px;
+    
+    }
+    #botao{
+        margin: 30% 25%;
+    }
+
+    #copiar{
+        left: 60%;
+        top: 70%;
+      
+    }
+
+    #res{
+        width: 350px;
+        height: 235px;
+    }
+}
+
+@media (max-width:750px){
+    #msg{
+        width: 450px;
+        height: 350px;
+    }
+    #res{
+        width: 450px;
+        margin: 5% 4%;
+    }
+
+    #resposta{
+        width: 500px;
+        height: 500px;
+        margin: 2% auto;
+    }
+    #codificar{
+        left: 25.5%;
+        top: 35%;
+     }
+     
+     #decodificar{
+         top: 43%;
+     }
+     #conteudoAnterior{
+        top:60%;
+        left: 30%;
+    }
+
+     #copiar{
+        top: 80%;
+        left: 25%;
+       
+     }
 }
