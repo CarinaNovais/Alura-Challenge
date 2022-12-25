@@ -4,22 +4,35 @@
 }
 textarea{
     resize: none;
+    border: solid pink 1px;
 }
+
+/* textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} */
+
 body{
+    margin: 0 5%;
     background-color: #E5E5E5;
+    width: 90%;
+    border: solid red 1px;
+    box-sizing: border-box;
 }
 
 #caixa{
     position: relative;
     width: 96%;
     margin: 0 2%;
-    /* border: solid red 1px; */
+    
     box-sizing: border-box;
 }
 
 /* div */
 #texto{
+    border: solid red 1px;
     margin: 1%;
+    box-sizing: border-box;
     
 }
 
@@ -30,7 +43,7 @@ body{
     width: 1000px;
     height: 600px;
     font-size: 36px;
-    margin-left: 15%;
+    margin-left: 10%;
     
 }
 
@@ -54,12 +67,13 @@ body{
     background-color: white;
     position: absolute;
     right: 1%;
-    top: 2%;
+    top: 0;
     z-index: -1;
 }
 
 #botao{
-    margin: 0 20%;
+    box-sizing: border-box;
+    margin: 0 5%;
 }
 
 button{
@@ -70,14 +84,14 @@ button{
 }
 
 #codificar{
-    margin: 0 5%;
+    margin: 0 0 0 5%;
     background-color: #0A3871;
     color: #D8DFE8;
     font-size: 16px;
 }
 
 #decodificar{
-    margin: 0 5%;
+    margin: 0 0 0 5%;
     background-color: #D8DFE8;
     color: #0A3871;
     font-size: 16px;
@@ -104,6 +118,7 @@ button{
     position: absolute;
     right: 3.5%;
     top:30%;
+    border: solid red 1px;
 }
 
 #p1{
@@ -116,6 +131,85 @@ button{
     font-size: 16px;
 }
 
-@media screen and (max-width: 1700px) {
+@media (max-width: 1800px) {
+    #msg{
+        width: 700px;
+        height: 600px;
+    }
+}
+/* ---------------------------------- */
+@media (max-width:1500px) {
+    #msg{
+        width: 500px;
+        height: 600px;
+    }
+
+    button{
+        width: 150px;
+        height: 67px;
+    }
+
+    #copiar{
+        position: absolute;
+        right: 25%;
+        top: 87%;
+      
+    }
+    #imgRes{
+        width: 250px;
+    }
+
+    #conteudoAnterior{
+        width: 250px;
+        right: 5.5%;
+        top:30%;
+    }
+    #resposta{
+        width: 344px;
+        height: 730px;
+    }
+    
+}
+
+/* -------------------------------------- */
+
+@media (max-width:1200px){
+    #msg{
+        margin: 0 20%;
+    }
+    
+    #resposta{
+        position: relative;
+        width: 700px;
+        height: 300px;
+        margin: 2% auto;
+    }
+
+    #copiar{
+        top:75%;
+        left: 70%;
+    }
+    #imgRes{
+        width: 150px;
+    }
+    #conteudoAnterior{
+        top:70%;
+        left: 20%;
+    }
+    #p1{
+        font-weight:700;
+        font-size: 16px;
+    }
+    
+    #p2{
+        font-weight:400;
+        font-size: 13px;
+    }
+    #botao{
+        margin: 0 25%;
+    }
+}
+
+@media (max-width:900px){
 
 }
