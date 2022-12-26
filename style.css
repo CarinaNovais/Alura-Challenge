@@ -1,14 +1,14 @@
 #logo{
     margin: 1%;
 }
-/* textarea{
+textarea{
     resize: none;
 }
 
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-} */
+}
 
 body{
     margin: 0 5%;
@@ -51,7 +51,7 @@ body{
     font-size: 36px;
     margin: 5% 5% 5% 5%; 
     background-color: transparent;
-    /* border: none; */
+    border: none;
     
 }
 
@@ -318,7 +318,6 @@ button{
         position: absolute;
         top: 80%;
         left: 25%;
-      
     }
 
     button{
