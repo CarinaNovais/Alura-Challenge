@@ -1,14 +1,14 @@
 #logo{
     margin: 1%;
 }
-textarea{
+/* textarea{
     resize: none;
 }
 
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-}
+} */
 
 body{
     margin: 0 5%;
@@ -51,7 +51,7 @@ body{
     font-size: 36px;
     margin: 5% 5% 5% 5%; 
     background-color: transparent;
-    border: none;
+    /* border: none; */
     
 }
 
@@ -78,6 +78,7 @@ button{
     height: 67px;
     border-radius: 24px;
     border: solid #0A3871 1px;
+    cursor: pointer;
 }
 
 #codificar{
@@ -144,14 +145,16 @@ button{
         width: 150px;
         height: 67px;
         border: solid #0A3871 1px;
+        cursor: pointer;
     }
 
     #copiar{
         position: absolute;
         right: 25%;
-        top: 87%;
-      
+        top: 90%;
+       
     }
+
     #imgRes{
         width: 250px;
     }
@@ -182,7 +185,9 @@ button{
     }
     
     #resposta{
-        position: relative;
+        position: absolute;
+        top: 100%;
+        left: 0%;
         width: 700px;
         height: 300px;
         margin: 2% auto;
@@ -218,6 +223,8 @@ button{
     }
 }
 
+/* -------------------------------------- */
+
 @media (max-width:900px){
     #msg{
         margin: 0 15%;
@@ -231,20 +238,23 @@ button{
     }
 
     #codificar{
+        margin-top: 2%;
        position: absolute;
-       left: 25%;
-       top: 55%;
+       left: 0;
+       top: 100%;
     }
     
     #decodificar{
+        margin-top: 2%;
+        right: 0;
         position: absolute;
-        top: 62%;
+        top:100%;
     }
 
     button{
         width: 235px;
         border: solid #0A3871 1px;
-    
+        cursor: pointer;
     }
     #botao{
         margin: 30% 25%;
@@ -256,43 +266,62 @@ button{
       
     }
 
+    #resposta{
+        margin: 15% auto;
+    }
+
     #res{
         width: 350px;
         height: 235px;
     }
 }
 
+/* -------------------------------------- */
+
 @media (max-width:750px){
     #msg{
         width: 450px;
         height: 350px;
     }
+
     #res{
         width: 450px;
+        height: 350px;
         margin: 5% 4%;
     }
 
     #resposta{
         width: 500px;
         height: 500px;
-        margin: 2% auto;
+        margin: 15% auto;
+        
     }
+
     #codificar{
-        left: 25.5%;
-        top: 35%;
+        margin-top: 2%;
+        left: 0;
+        top: 100%;
      }
      
-     #decodificar{
-         top: 43%;
-     }
-     #conteudoAnterior{
+    #decodificar{
+        margin-top: 2%;
+        right: 0;
+        top: 100%;
+    }
+
+    #conteudoAnterior{
         top:60%;
         left: 30%;
     }
 
-     #copiar{
+    #copiar{
+        position: absolute;
         top: 80%;
         left: 25%;
-       
-     }
+      
+    }
+
+    button{
+        cursor: pointer;
+    }
 }
