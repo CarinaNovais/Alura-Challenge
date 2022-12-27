@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    background-color:  #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+   
+}
+
+textarea{
+    resize: none;
+    border: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    /* background-color: cyan; */
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+/* div que cobre os dois textxareas */
+#caixa{
+    /* border: solid yellow 1px; */
+   
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+#imgLogo{
+    width: 45px;
+    margin: 5% 0;
+    /* border: solid red 1px; */
+}
+
+/* div de entrada */
+#texto{
+    box-sizing: border-box;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    /* border: solid blue 1px; */
+    width: 45%;
+    height:50%;
+}
+/* textarea de entrada */
+#msg{
+    font-size: 32px;
+    font-weight: 400px;
+    width: 100%;
+    height:90%;
+   
+}
+
+/* textarea de saida */
+#res{
+    display: flex;
+    margin: 5% 12%;
+    font-size: 32px;
+    font-weight: 400px;
+    width: 300px;
+    height: 700px;
+}
+
+/* div de saida */
+#resposta{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 80%;
+    right: 5%;
+    top: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin: 2%;
+}
+
+button{
+    height: 67px;
+    width: 328px;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+  
+    
+}
+
+/* div dos botoes */
+#botao{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% auto;
+    /* border: solid red 1px; */
+
+}
+/* botao codificar */
+#codificar{
+    background: #0A3871;
+    color: #ffffff;
+    border: solid #0A3871 1px;
+    margin-right: 5%;
+}
+
+/* botao descodificar */
+#decodificar{
+    background: #D8DFE8;
+    color: #0A3871;
+    border: solid #0A3871 1px;
+    margin-left: 5%;
+}
+
+/* botao de copiar */
+#copiar{
+    position: absolute;
+    background-color: #ffffff;
+    color: #0A3871;
+    border: solid #0A3871 1px;
+    right:8.5%;
+    top: 90%;
+}
+
+#conteudoAnterior{
+    background-color: #ffffff;
+    width: 300px;
+    z-index: 1;
+    position: fixed;
+    display: block;
+    align-items:center;
+    justify-content:center;
+    top: 20%;
+    right: 10%;
+    text-align: center;
+    margin: 0 0 0 5%;
+    
+}
+
+#imgRes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+#p1{
+    
+    font-weight:700;
+    font-size: 24px;
+    background-color: #ffffff;
+}
+
+#p2{
+    font-weight:400;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+@media (max-width:1200px) {
+    
+}

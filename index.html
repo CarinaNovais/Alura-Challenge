@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
    
 </head>
 <body>
-    <div id="logo">
-        <img src="Vectorlogo.svg" >
-    </div>
     <div id="caixa">
+        <!-- logo -->
+        <img src="Vectorlogo.svg" id="imgLogo">
+
+        <!-- div que recebe texto -->
         <div id="texto">
             <textarea id="msg" name="msg" placeholder="Digite aqui"></textarea>
             <div id="botao">
-                <button id="codificar">codificar</button>
+                <button id="codificar">Codificar</button>
                 <button id="decodificar">Decodificar</button>
             </div> 
         </div>
@@ -29,9 +30,10 @@
             <p id="p1">Nenhuma mensagem encontrada</p>
             <p id="p2">Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
-        
+
+        <!-- div que recebe resposta -->
         <div id="resposta">
-            <textarea id="res" name="res"></textarea>
+            <textarea id="res" name="res" readonly></textarea>
             <button id="copiar">Copiar</button>
         </div>
     </div>

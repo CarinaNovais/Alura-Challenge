@@ -1,14 +1,18 @@
+/* css antigo */
+
+
+
 #logo{
     margin: 1%;
 }
-textarea{
+/* textarea{
     resize: none;
 }
 
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-}
+} */
 
 body{
     margin: 0 5%;
@@ -21,7 +25,6 @@ body{
     position: relative;
     width: 96%;
     margin: 0 2%;
-    
     box-sizing: border-box;
 }
 
@@ -35,7 +38,7 @@ body{
 /* textarea */
 #msg{
     background-color: transparent;
-    border: none;
+    /* border: none; */
     width: 1000px;
     height: 600px;
     font-size: 36px;
@@ -51,7 +54,7 @@ body{
     font-size: 36px;
     margin: 5% 5% 5% 5%; 
     background-color: transparent;
-    border: none;
+    /* border: none; */
     
 }
 
@@ -182,6 +185,7 @@ button{
 @media (max-width:1200px){
     #msg{
         margin: 0 20%;
+        height: 450px;
     }
     
     #resposta{
@@ -203,21 +207,27 @@ button{
     }
 
     #imgRes{
+        margin-top: 27%;
         width: 150px;
     }
     #conteudoAnterior{
-        top:70%;
+        top:100%;
         left: 20%;
+        box-sizing: border-box;
     }
     #p1{
         font-weight:700;
-        font-size: 16px;
+        font-size: 15px;
     }
     
     #p2{
         font-weight:400;
-        font-size: 13px;
+        font-size: 10px;
     }
+    #codificar{
+      margin: 5% 0 10%;
+    }
+    
     #botao{
         margin: 0 25%;
     }
