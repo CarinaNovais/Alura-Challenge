@@ -141,7 +141,7 @@ button{
     align-items:center;
     justify-content:center;
     top: 20%;
-    right: 10%;
+    right: 9.5%;
     text-align: center;
     margin: 0 0 0 5%;
     
@@ -169,5 +169,52 @@ button{
 }
 
 @media (max-width:1200px) {
-    
+    #conteudoAnterior{
+        top: 87%;
+        left: 10%;
+        position: absolute;
+    }
+    #texto{
+        left: 7%;
+        width: 85%;
+        height:50%;
+    }
+    #msg{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        height: 500px;
+    }
+
+    #res{
+        width: 90%;
+        height: 300px;
+        display: flex;
+    }
+    #resposta{
+        left: 3%;
+        top: 80%;
+        width: 90%;
+        height: 500px;
+        display: flex;
+    }
+    #copiar{
+        top: 80%;
+    }
+    #botao{
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        display: flex;
+      
+    }
+
+}
+@media (max-width:800px){
+    #resposta{
+        top: 77%;
+    }
+    #conteudoAnterior{
+        top: 82%;
+    }
 }
